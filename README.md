@@ -3,14 +3,12 @@
 ## Table of Contents
 
 1. [Description](#description)
-2. [Visual](#visuals)
+2. [Visuals](#visuals)
 3. [Resources](#resources)
 
 ## Description
 
-What did you do in the homework and how you did it (lightly)
-
-Make sure your text is separated by a blank line
+This challenge improved the search engine optimization of the Horiseon website. The title was changed to contain the company name and a key phrase from the page. Divisions in the code were changed to include semantic tags such as header, nav, section, main, aside, and footer. Alternative text was added to images. Unnecessary classes were removed and replaced by element selectors. Related classes with similar CSS properties (such as in the main and aside tags) were condensed into one class. Finally, the Search Engine Optimization link in the navigation heading was fixed by adding an id to the related section.
 
 ## Visuals
 
