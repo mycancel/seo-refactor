@@ -8,11 +8,12 @@ body {
     background-color: #d9dcd6;
 }
 
+/*Moved p to the top*/
 p {
     font-size: 16px;
 }
 
-/*Heading and navigation bar*/
+/*Changed class selector to elemental selector header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,11 +26,11 @@ header h1 {
     font-size: 48px;
 }
 
-/*Adding a different font color for the 'seo' in 'Horiseon'*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/*Replaced element selectors ul and li with nav*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,7 +39,7 @@ header nav {
     font-size: 20px;
 }
 
-/*Undeleted CSS for heading links for more specificity*/
+/* Replaced ul and li with nav*/
 nav a {
     display:inline-block;
     margin-left: 25px;
@@ -49,7 +50,6 @@ a {
     text-decoration: none;
 }
 
-/*Image background for Homepage*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,13 +59,13 @@ a {
     background-position: center;
 }
 
-/*Main information*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Moved .float-left, .float-right, and .content-section underneath the main section*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,6 +76,7 @@ a {
     margin-left: 25px;
 }
 
+/*Condensed classes in main tag which had redundant properties*/
 .content-section {
     margin-bottom: 20px;
     padding: 50px;
@@ -94,7 +95,6 @@ a {
     font-size: 36px;
 }
 
-/*Aside column of information*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,6 +106,7 @@ a {
     background-color: #2589bd;
 }
 
+/*Condensed classes in aside tag which had redundant properties*/
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
@@ -122,7 +123,7 @@ a {
     max-width: 150px;
 }
 
-/*End of Page trademark*/
+/*Changed class selector to elemental selector footer*/
  footer {
     padding: 30px;
     clear: both;
