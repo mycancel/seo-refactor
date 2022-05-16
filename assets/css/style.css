@@ -38,10 +38,15 @@ header nav {
     font-size: 20px;
 }
 
+/*Undeleted CSS for heading links for more specificity*/
+nav a {
+    display:inline-block;
+    margin-left: 25px;
+}
+
 a {
     color: #ffffff;
     text-decoration: none;
-    margin-left: 25px;
 }
 
 /*Image background for Homepage*/
