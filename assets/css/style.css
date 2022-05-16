@@ -59,13 +59,14 @@ a {
     background-position: center;
 }
 
-.content {
+/*Replaced class selector with elemental selector*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*Moved .float-left, .float-right, and .content-section underneath the main section*/
+/*Moved .float-left, .float-right, and .content underneath the main tag*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -77,7 +78,7 @@ a {
 }
 
 /*Condensed classes in main tag which had redundant properties*/
-.content-section {
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -86,11 +87,11 @@ a {
     color: #ffffff;
 }
 
-.content-section img {
+.content img {
     max-height: 200px;
 }
 
-.content-section h2 {
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
